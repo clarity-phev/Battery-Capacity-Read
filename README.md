@@ -32,7 +32,7 @@ HV Battery Capacity is accessed through the OBDII connector which is located und
 | Option 2<br>ELM327<br>Car Scanner  | Low ($30) | No | Fast | Yes |  No  | [Instructions](https://github.com/clarity-phev/Battery-Capacity-Read/ELM_CarScanner.pdf) |[Discussions](https://www.insideevsforum.com/community/index.php?threads/budget-battery-capacity-readout.10531/) |
 | Option 3<br>ELM327<br>PC  | Low ($30) | No | Fast | No  |  Yes | [Instructions](https://github.com/clarity-phev/Battery-Capacity-Read/ELM_PC.pdf) |[Discussions](https://www.insideevsforum.com/community/index.php?threads/pc-based-electric-powertrain-report-battery-capacity.12220/) |
 
-<ins>**Which should I use ?**</ins>
+<br><ins>**Which should I use ?**</ins>
 
 * If you are an avid do-it-yourselfer, you my want to consider Option 1 because the Autel device provides a LOT of diagnostic information about all of the vehicle systems (not just the Electric Powertrain which contains the Battery Capacity)
    * Requires special request to Autel to authorize 2.02.54 Beta version of diagnostics
@@ -43,3 +43,7 @@ HV Battery Capacity is accessed through the OBDII connector which is located und
 * Many have both setups because really the costs are very low
 
 **Note -** There is LOT of discussion on the InsideEEVS pages for each approach (linked in the table above).  These discussions were evolutionary and sometimes highly technical.  This is part of the reason for this How-To guide. The original threads became far too cluttered for most to easily interpret.  They contain a lot of information, but hopefully this simplified How-To will be all you need to get started.  Feel free to post any comments and discussions in InsideEEVs.  There is a lot of help available there if you are having trouble.
+
+<br>**Sharing of Battery Capacity Measurements**
+
+In the interest of learning more about HV battery behavior, InsideEEV forum members are cooperating and entering battery measurement data into a shared spreadsheet.  This will help identify trends and you can easily see if your Clarity is out of character with others.  You are encouraged to participate in this important effort, and you can get to the spreadsheet [HERE](https://docs.google.com/spreadsheets/d/1LHtqVuPzHUDXmX1jiHOQIpT_YiGp9N-vnBOiSz96C2I/edit#gid=1710145002)
