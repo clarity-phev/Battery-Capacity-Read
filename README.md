@@ -1,24 +1,41 @@
 # Battery-Capacity-Read
-This repository identifies 3 ways to read the HV Battery Capacity from the Honda Clarity PHEV
+<ins>**Background**</ins>
 
-Option 1 -  The Autel AP200, with MaxAP200 App (and pre-authorized V2.01.54 Beta version of Honda Diagnostics)<br>
-Option 2 -  A Proven 'good' ELM327 OBDII adapter with the Car Scanner App<br>
-Option 3 -  A Proven 'good' ELM327 OBDII adapter with a PC or Laptop, generating a report format<br>
+One of the most important, expensive, and worrisome components of any electric vehicle is the high-voltage battery that propels the vehicle.  These batteries, although designed for long life, will deteriorate over time and affect vehicle range performance.  All manufacturers are required to provide a warranty for the HV batteries.  For the Clarity, this warranty is 8 years, 100K miles in most states.  It increases to 10 years, 150K miles if your vehice is registered and normally operated in California, Connecticut, Delaware, Maine, Maryland, Massachusetts, New Jersey, New York, Oregon, Pennsylvania, Rhode Island, Vermont, and Washington.
 
-**Here is a summary of Pro's and Con's of these approaches**
+In the case of the Clarity, the specifics of the HV battery warranty are based on a capacity measurement  of the battery expressed in ampere-hours (Ah).  This warranty is spelled out in the pre-delivery checklist (17-093) that is supposed to be provided to all new owners.
+
+The nominal battery capacity for a new vehicle is 55 Ah, and Honda define the elligability for warranty replacement as being 2/3 of the nominal capacity, or 36.6 aH.
+
+[Here is where this is spelled out in the checklist](https://github.com/clarity-phev/Battery-Capacity-Read/Pre-Delivery_Checklist.png)
+
+Although it would have been trivial for Honda to make this important measurement available to owners through the infotainment center, or dashboard display, they have chosen not to do this.  Instead, they suggest that you must go to a dealer and have them read the value from the vehicle uing their i-HDS diagnostic tool.  We have found that most dealers are completely unaware of this, and we often need to provide them with this page from the PDI in order to educate them as to how this is done.  In addition, they will most often charge a fee (unless you happen to be there for other service anyway, and you are nice to them).
+
+This is an unacceptible situation, and this repository will provide a several means to obtain this measurement yourself.
+
+
+<ins>**This repository identifies 3 ways to read the HV Battery Capacity from the Honda Clarity PHEV**</ins>
+
+**Option 1 -**  The Autel AP200, with MaxAP200 App (and pre-authorized V2.01.54 Beta version of Honda Diagnostics)<br>
+**Option 2 -**  A Proven 'good' ELM327 OBDII adapter with the Car Scanner App<br>
+**Option 3 -**  A Proven 'good' ELM327 OBDII adapter with a PC or Laptop, generating a report format<br>
+
+<ins>**Here is a summary of Pro's and Con's of these approaches**</ins>
 
 |     | Cost | Comprehensive<br>Diagnostics|Speed|Live<br>Graphs|Formatted<br>Report|How-To<br>Instructions|InsideEEVS<br>Discussion |
 | :-- | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Option 1<br>Autel  | Med | Broad range<br>of vehicle<br>diagnostics | Slow | Marginal | Yes | [Instructions](https://github.com/clarity-phev/Battery-Capacity-Read/AP200.pdf) | [Discussions](https://www.insideevsforum.com/community/index.php?threads/read-battery-capacity-yourself-autel-ap200-breakthrough.9913/) |
-| Option 2<br>ELM327<br>Car Scanner  | Low | No | Fast | Yes |  No  | [Instructions](https://github.com/clarity-phev/Battery-Capacity-Read/ELM_CarScanner.pdf) |[Discussions](https://www.insideevsforum.com/community/index.php?threads/budget-battery-capacity-readout.10531/) |
-| Option 3<br>ELM327<br>PC  | Low | No | Fast | No  |  Yes | [Instructions](https://github.com/clarity-phev/Battery-Capacity-Read/ELM_PC.pdf) |[Discussions](https://www.insideevsforum.com/community/index.php?threads/pc-based-electric-powertrain-report-battery-capacity.12220/) |
+| Option 1<br>Autel  | Med ($60) | Broad range<br>of vehicle<br>diagnostics | Slow | Marginal | Yes | [Instructions](https://github.com/clarity-phev/Battery-Capacity-Read/AP200.pdf) | [Discussions](https://www.insideevsforum.com/community/index.php?threads/read-battery-capacity-yourself-autel-ap200-breakthrough.9913/) |
+| Option 2<br>ELM327<br>Car Scanner  | Low ($30) | No | Fast | Yes |  No  | [Instructions](https://github.com/clarity-phev/Battery-Capacity-Read/ELM_CarScanner.pdf) |[Discussions](https://www.insideevsforum.com/community/index.php?threads/budget-battery-capacity-readout.10531/) |
+| Option 3<br>ELM327<br>PC  | Low ($30) | No | Fast | No  |  Yes | [Instructions](https://github.com/clarity-phev/Battery-Capacity-Read/ELM_PC.pdf) |[Discussions](https://www.insideevsforum.com/community/index.php?threads/pc-based-electric-powertrain-report-battery-capacity.12220/) |
 
-**Which should I use ?**
+<ins>**Which should I use ?**</ins>
 
 * If you are an avid do-it-yourselfer, you my want to consider Option 1 because the Autel device provides a LOT of diagnostic information about all of the vehicle systems (not just the Electric Powertrain which contains the Battery Capacity)
    * Requires special request to Autel to authorize 2.02.54 Beta version of diagnostics
    * Autel is sometimes not as responsive as we would like
 * If you are a beginner and not so technically inclined, then Option 2 is recommented
 * Once you are configured for Option 2, then you can also try Option 3 if you would like nicely formatted reports
+
+* Many have both setups because really the costs are very low
 
 **Note -** There is LOT of discussion on the InsideEEVS pages for each approach (linked in the table above).  These discussions were evolutionary and sometimes highly technical.  This is part of the reason for this How-To guide. The original threads became far too cluttered for most to easily interpret.  They contain a lot of information, but hopefully this simplified How-To will be all you need to get started.  Feel free to post any comments and discussions in InsideEEVs.  There is a lot of help available there if you are having trouble.
