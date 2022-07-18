@@ -47,3 +47,10 @@ HV Battery Capacity is accessed through the OBDII connector which is located und
 <br>**Sharing of Battery Capacity Measurements**
 
 In the interest of learning more about HV battery behavior, InsideEEV forum members are cooperating and entering battery measurement data into a shared spreadsheet.  This will help identify trends and you can easily see if your Clarity is out of character with others.  You are encouraged to participate in this important effort, and you can get to the spreadsheet [HERE](https://docs.google.com/spreadsheets/d/1LHtqVuPzHUDXmX1jiHOQIpT_YiGp9N-vnBOiSz96C2I/edit#gid=1710145002)
+
+<br>**Odd 'Resets' of Battery Capacity**
+
+We have seen some anomalies with the capacity readings.
+* We have seen a few examples where the battery capacity seems too good to be true.  Remember that a factoy new battery is 54Ah.  In these instances, it seems like the reading continues to report 55Ah even as usage / mileage shoud reveal some degradation.  Either these owners are 'babying' the battery in some unknown way, or the reading is 'stuck' for some reason and doesn't reflect the actual capacity.
+
+* We have also seem some examples where the battery capacity seems to get "reset" back to the factory setting.  In these cases, the capacity was slowly dropping as expected, and was at a 'reasonable' setting when suddenly it jumps up to 55Ah.  Something causes this reset, after which it begins to return back to the 'normal' reading just before the reset.  The process of returning to 'normal' seems to take very long (months?).  We know that disconnecting the 12V battery for a breif period does not cause a battery capacity reset, but the speculation is that disconnecting the 12V battery for a 'prolonged' period might (maybe a day or more?).
