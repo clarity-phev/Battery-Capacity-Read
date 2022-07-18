@@ -42,7 +42,7 @@ HV Battery Capacity is accessed through the OBDII connector which is located und
 
 * Many have both the AP200 and ELM327 setups because really the costs are very low
 
-**Note -** There is LOT of discussion on the InsideEEVS pages for each approach (linked in the table above).  These discussions were evolutionary and sometimes highly technical.  This is part of the reason for this How-To guide. The original threads became far too cluttered for most to easily interpret.  They contain a lot of information, but hopefully this simplified How-To will be all you need to get started.  Feel free to post any comments and discussions in InsideEEVs.  There is a lot of help available there if you are having trouble.
+**Note -** There is LOT of discussion on the InsideEEVs pages for each approach (linked in the table above).  These discussions were evolutionary and sometimes highly technical.  This is part of the reason for this How-To guide. The original threads became far too cluttered for most to easily interpret.  They contain a lot of information, but hopefully this simplified How-To will be all you need to get started.  Feel free to post any comments and discussions in InsideEEVs.  There is a lot of help available there if you are having trouble.
 
 <br>**Sharing of Battery Capacity Measurements**
 
