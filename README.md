@@ -5,7 +5,7 @@ One of the most important, expensive, and worrisome components of any electric v
 
 In the case of the Clarity, the specifics of the HV battery warranty are based on a capacity measurement  of the battery expressed in ampere-hours (Ah).  This warranty is spelled out in the pre-delivery checklist (17-093) that is supposed to be provided to all new owners.
 
-The nominal battery capacity for a new vehicle is 55 Ah, and Honda defines the elligability for warranty replacement as being 2/3 of the nominal capacity, or 36.6 aH.
+The nominal battery capacity for a new vehicle is 55 Ah, and Honda defines the elligability for warranty replacement as being 2/3 of the nominal capacity, or 36.6 Ah.
 
 [Here is where this is spelled out in the PDI checklist](https://clarity-phev.github.io/Battery-Capacity-Read/Pre-Delivery_Checklist.png)
 
