@@ -46,7 +46,7 @@ HV Battery Capacity is accessed through the OBDII connector which is located und
 
 <br>**Sharing of Battery Capacity Measurements**
 
-In the interest of learning more about HV battery behavior, InsideEEV forum members are cooperating and entering battery measurement data into a shared spreadsheet.  This will help identify trends and you can easily see if your Clarity is out of character with others.  You are encouraged to participate in this important effort, and you can get to the spreadsheet [HERE](https://docs.google.com/spreadsheets/d/1LHtqVuPzHUDXmX1jiHOQIpT_YiGp9N-vnBOiSz96C2I/edit#gid=1710145002)
+In the interest of learning more about HV battery behavior, InsideEEVs forum members are cooperating and entering battery measurement data into a shared spreadsheet.  This will help identify trends and you can easily see if your Clarity is out of character with others.  You are encouraged to participate in this important effort, and you can get to the spreadsheet [HERE](https://docs.google.com/spreadsheets/d/1LHtqVuPzHUDXmX1jiHOQIpT_YiGp9N-vnBOiSz96C2I/edit#gid=1710145002)
 
 <br>**Odd 'Resets' of Battery Capacity**
 
