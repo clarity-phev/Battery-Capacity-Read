@@ -22,7 +22,7 @@ HV Battery Capacity is accessed through the OBDII connector which is located und
 
 **Option 1 -**  The Autel AP200, with MaxAP200 App (and pre-authorized V2.01.54 Beta version of Honda Diagnostics)<br>
 **Option 2 -**  A Proven 'good' ELM327 OBDII adapter with the Car Scanner App<br>
-**Option 3 -**  A Proven 'good' ELM327 OBDII adapter with a PC or Laptop, generating a report format<br>
+**Option 3 -**  A Proven 'good' ELM327 OBDII adapter with a PC or Laptop, generating a formatted report<br>
 
 <ins>**Here is a summary of Pro's and Con's of these approaches**</ins>
 
