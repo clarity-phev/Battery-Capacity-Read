@@ -32,7 +32,7 @@ HV Battery Capacity is accessed through the OBDII connector which is located und
 
 |     | Cost | Comprehensive<br>Diagnostics|Speed|Live<br>Graphs|Formatted<br>Report|How-To<br>Instructions|InsideEVS<br>Discussion |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Option 1<br>Autel,br.AP200  | Med ($70) | Broad range<br>of vehicle<br>diagnostics | Slow | Marginal | Yes | [Instructions](https://clarity-phev.github.io/Battery-Capacity-Read/AP200_Instructions.pdf) | [Discussions](https://www.insideevsforum.com/community/index.php?threads/read-battery-capacity-yourself-autel-ap200-breakthrough.9913/) |
+| Option 1<br>Autel<br>AP200  | Med ($70) | Broad range<br>of vehicle<br>diagnostics | Slow | Marginal | Yes | [Instructions](https://clarity-phev.github.io/Battery-Capacity-Read/AP200_Instructions.pdf) | [Discussions](https://www.insideevsforum.com/community/index.php?threads/read-battery-capacity-yourself-autel-ap200-breakthrough.9913/) |
 | Option 2<br>ELM327<br>Car Scanner  | Low ($30) | No | Fast | Yes |  No  | [Instructions](https://clarity-phev.github.io/Battery-Capacity-Read/ELM_CarScanner_Instructions.pdf) |[Discussions](https://www.insideevsforum.com/community/index.php?threads/budget-battery-capacity-readout.10531/) |
 | Option 3<br>ELM327<br>PC  | Low ($30) | No | Fast | No  |  Yes | [Instructions](https://clarity-phev.github.io/Battery-Capacity-Read/How%20to%20Use.pdf) |[Discussions](https://www.insideevsforum.com/community/index.php?threads/pc-based-electric-powertrain-report-battery-capacity.12220/) |
 
