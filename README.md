@@ -39,7 +39,7 @@ HV Battery Capacity is accessed through the OBDII connector which is located und
 <br><ins>**Which should I use ?**</ins>
 
 * If you are an avid do-it-yourselfer, you my want to consider Option 1 because the Autel device provides a LOT of diagnostic information about all of the vehicle systems (not just the Electric Powertrain which contains the Battery Capacity)
-   * Requires special request to Autel to authorize 2.02.54 Beta version of Honda diagnostics
+   * Requires special request to Autel to authorize 2.01.54 Beta version of Honda diagnostics
    * Autel is sometimes not as responsive as we would like
 * If you are a beginner and not so technically inclined, then Option 2 is recommended, and is easy enough that almost anyone can be successful with it.
 * Once you are configured for Option 2, then you can also try Option 3 if you would like nicely formatted reports
