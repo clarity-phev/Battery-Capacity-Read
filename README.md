@@ -9,9 +9,13 @@ The nominal battery capacity for a new vehicle is 55 Ah, and Honda defines the e
 
 [Here is where this is spelled out in the PDI checklist](https://clarity-phev.github.io/Battery-Capacity-Read/Pre-Delivery_Checklist.png)
 
-Although it would have been trivial for Honda to make this important measurement available to owners through the infotainment center, or dashboard display, they have chosen not to do this.  Instead, they suggest that you must go to a dealer and have them read the value from the vehicle using their i-HDS diagnostic tool.  We have found that most dealers are completely unaware of this, and we often need to provide them with this page from the PDI in order to educate them as to how this is done.  In addition, they will most often charge a fee (unless you happen to be there for other service anyway, and you are nice to them).
+It is not industry practice to make an electrified vehicle's battery capacity readily available to owners and Honda followed that practice. Instead, Honda intended this readout to be available only to dealer service personnel, believing they would be better able to interpret that value. Honda equips dealer service departments with a Honda-specific system called "i-HDS," which can extract the battery capacity value along with much other diagnostic information.
 
-This is an unacceptible situation, and this repository will provide a several means to obtain this measurement yourself
+Unfortunately, some Honda dealers do not have extensive experience servicing the Honda Clarity Plug-In Hybrid and do not know about the battery capacity. In this case, presenting the service adviser with a copy of this PDI page will help them understand the Clarity PHEV's battery capacity and how to read it.
+
+In addition, many dealers charge a fee to read the battery capacity (unless you happen to be there for other service anyway, and you are nice to them).
+
+However, even if your dealer is willing to provide the battery capacity of your Clarity PHEV for free, it would be much more convenient if you could read this value yourself whenever you choose to do so, and this repository will provide several means to obtain this measurement yourself
 
 <ins>**Accessing the Battery Capacity Yourself**</ins>
 
