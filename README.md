@@ -36,7 +36,7 @@ HV Battery Capacity is accessed through the OBDII connector which is located und
 | Option 2<br>ELM327<br>Car Scanner  | Low ($30) | No | Fast | Yes |  No  | [Instructions](https://clarity-phev.github.io/Battery-Capacity-Read/ELM_CarScanner_Instructions.pdf) |[Discussions](https://www.insideevsforum.com/community/index.php?threads/budget-battery-capacity-readout.10531/) |
 | Option 3<br>ELM327<br>PC  | Low ($30) | No | Fast | No  |  Yes | [Instructions](https://clarity-phev.github.io/Battery-Capacity-Read/How%20to%20Use.pdf) |[Discussions](https://www.insideevsforum.com/community/index.php?threads/pc-based-electric-powertrain-report-battery-capacity.12220/) |
 
-** With an ELM327 device, read the section about Power Savings / Shutown [HERE](https://clarity-phev.github.io/Battery-Capacity-Read/ELM_CarScanner_Instructions.pdf)
+** With an ELM327 device, read the section about Power Savings / Shutown [HERE](https://clarity-phev.github.io/Battery-Capacity-Read/ELM_Adapter_Specifics.pdf)
 
 <br><ins>**Which should I use ?**</ins>
 
